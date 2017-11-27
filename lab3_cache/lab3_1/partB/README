@@ -1,0 +1,16 @@
+Cache Lab 3.1 Part Two
+Author:
+Wantong Jiang <1400012901@pku.edu.cn>
+Pin Xu <pile@pku.edu.cn>
+
+Content:
+cache_sim: source file of cache simulator 3.1
+riscv_sim: source file of riscv simulator & executable file of dhrystone (dry2reg)
+autorun.sh: a shell script for you to run the whole program quickly
+
+Instructions:
+Just run the file: autorun.sh
+Maybe you need to : chmod +x autorun.sh firstly.
+You need to input the number of dhrystone runs, number of level of cache and every cache configurations, just follow the program.
+
+Enjoy yourself~
