@@ -1,0 +1,37 @@
+J=1
+L=1
+P=1
+for I in {3..6}
+do
+ for K in {1..7}
+ do
+  for M in {1..9}
+  do
+   if((M<=I))
+   then
+    continue
+   fi
+   for N in {1..7}
+   do
+   if((M-N<I-K))
+   then
+    continue
+   fi
+    for Q in {10..12}
+	do
+	 for R in {1..7}
+	 do
+	  echo 3 $I $J $M $L $Q $P
+	  echo 3 $I $J $M $L $Q $P | ./sim 1.trace
+	  P=$((P*2))
+	 done
+	 P=1
+	done
+	L=$((L*2))
+   done
+   L=1
+  done
+  J=$((J*2))
+ done
+ J=1
+done
