@@ -2,8 +2,8 @@
 An instruction level RISCV64-simulator written for practice
 
 Anthor:
-	Pin Xu <pile@pku.edu.cn>
 	Wantong Jiang <1400012901@pku.edu.cn>
+	Pin Xu <pile@pku.edu.cn>
 
 Instruction:
 1. Type "make" to build a normal mode executive file named RV_SIM, then you can use this simulator to execute RISCV RV64I programs.
